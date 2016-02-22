@@ -14,7 +14,7 @@ if [ -e "$HOME/.spacemacs" ]; then
         path="$path_base.$num"
     fi
 
-    echo ".spacemacs exists in $HOME. Mdoving old .spacemacs to $path"
+    echo ".spacemacs exists in $HOME. Moving old .spacemacs to $path"
     mv $HOME/.spacemacs $path
 fi
 
